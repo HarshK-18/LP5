@@ -1,0 +1,61 @@
+CNN - https://www.geeksforgeeks.org/introduction-convolution-neural-network/
+- **Stride:** The step size by which the filter moves across the input image in a Convolutional Neural Network (CNN).
+- **Filters:** Small square or rectangular grids used to extract features from input data in CNN layers.
+- **Kernel:** A filter used in CNNs to convolve with input data, extracting features through convolution operations.
+
+- **Activation Function:** A mathematical function applied to the output of each neuron in a neural network, introducing non-linearity crucial for learning complex patterns.
+- **Uses:** Activation functions enable neural networks to learn and model non-linear relationships in data, aiding in tasks like classification, regression, and feature extraction.
+
+- **Sigmoid Activation Function:** Squashes input values between 0 and 1, suitable for binary classification tasks.
+- **Tanh Activation Function:** Squashes input values between -1 and 1, providing a stronger gradient than sigmoid, often used in hidden layers.
+- **ReLU (Rectified Linear Unit) Activation Function:** Outputs the input directly if positive, otherwise outputs zero. Widely used due to its simplicity and effectiveness.
+
+DNN - A Deep Neural Network (DNN) is a type of artificial neural network (ANN) with multiple hidden layers between the input and output layers, enabling it to learn complex patterns and hierarchies in data.
+The architecture of a Deep Neural Network (DNN) typically includes an input layer, multiple hidden layers (often with different numbers of neurons), and an output layer. Each layer is fully connected to the next one, and neurons in the hidden layers use activation functions to process inputs and generate outputs.
+
+RNN - A Recurrent Neural Network (RNN) is a type of neural network designed for sequence data, capable of capturing temporal dependencies by using loops within the network to persist information.
+
+LSTM - LSTMs, or Long Short-Term Memory networks, are a specialized type of RNN that mitigates the vanishing gradient problem, enabling them to retain long-term dependencies in sequential data, making them ideal for tasks like speech recognition and language translation.
+
+- **Neurons:** Basic units in neural networks that receive inputs, apply weights and biases, and use activation functions to produce outputs.
+- **Perceptron:** A type of neural network model with a single layer of neurons, used for binary classification tasks by learning linear decision boundaries.
+
+Difference - 
+| Term           | CPU                        | Core                    |
+|----------------|----------------------------|-------------------------|
+| Definition     | The central processing unit (CPU) is the main component of a computer that performs instructions from software programs. | A core is a physical processing unit within the CPU that can independently execute instructions. |
+| Functionality  | Executes instructions and performs calculations for software tasks. | Handles the execution of instructions and tasks at a lower level, parallelizing work within the CPU. |
+
+| Term           | Process                                              | Thread                                                |
+|----------------|------------------------------------------------------|-------------------------------------------------------|
+| Definition     | A process is an instance of a running program in an operating system, with its own memory space and resources. | A thread is a component of a process that can execute independently, sharing resources within the process. |
+| Functionality  | Manages program execution, allocates resources, and provides isolation between running applications. | Enables concurrent execution within a process, improving performance and responsiveness for multitasking. |
+
+Parallel Program - A parallel program is one that breaks down tasks into smaller parts that can be executed simultaneously on multiple processing units, improving efficiency and performance by leveraging parallel processing capabilities of modern computer systems.
+
+Threads - Threads are individual units of execution within a process, allowing multiple tasks to run concurrently. To calculate the number of threads, consider the number of available CPU cores and the nature of the tasks (e.g., CPU-bound or I/O-bound) to determine an optimal threading strategy for performance and resource utilization.
+
+OpenMP - OpenMP (Open Multi-Processing) is an API (Application Programming Interface) that supports shared memory multiprocessing programming in C, C++, and Fortran, allowing developers to create parallel applications by adding directives to existing code.
+
+
+- **Depth-First Search (DFS):**
+  1. Start at a selected node and mark it as visited.
+  2. Explore one of its neighbors that hasn't been visited, repeating this step recursively.
+  3. Backtrack if no unvisited neighbors are left, until all nodes are visited or there are no more unvisited neighbors.
+https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+
+- **Breadth-First Search (BFS):**
+  1. Start at a selected node and mark it as visited.
+  2. Enqueue its neighbors into a queue and mark them as visited.
+  3. Dequeue a node from the queue and repeat step 2 for its unvisited neighbors, continuing until the queue is empty or all nodes are visited.
+https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
+
+Sure, here's the step-by-step explanation for Merge Sort and Bubble Sort in one-liners:
+
+- **Merge Sort:**
+  1. Divide the unsorted array into two halves recursively until each subarray has only one element.
+  2. Merge adjacent subarrays in sorted order, creating larger sorted subarrays until the entire array is merged.
+
+- **Bubble Sort:**
+  1. Compare adjacent elements in the array and swap them if they are in the wrong order, moving the larger element towards the end.
+  2. Repeat this process for each pair of adjacent elements in the array until no more swaps are needed, indicating a sorted array.
